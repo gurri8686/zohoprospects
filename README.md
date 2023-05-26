@@ -1,5 +1,5 @@
 # zohoprospects
-# Crete Zoho
+# Create Zoho
 
 curl --location --request POST 'http://localhost:8000/api/prospects' \
 --header 'Content-Type: application/json' \
