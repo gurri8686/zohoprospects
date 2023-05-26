@@ -1,5 +1,5 @@
 # zohoprospects
-# Create Zoho
+# Create Prospect
 
 curl --location --request POST 'http://localhost:8000/api/prospects' \
 --header 'Content-Type: application/json' \
@@ -15,7 +15,7 @@ curl --location --request POST 'http://localhost:8000/api/prospects' \
 
 # ---------------------------------
 
-# Get data from Zoho
+# List recent 5 Prospect
 
 curl --location --request GET 'http://localhost:8000/api/prospects' \
 --header 'Content-Type: application/json' \
